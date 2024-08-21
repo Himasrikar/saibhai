@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class=""kk>
+    <form class="form " onsubmit="myFunction()">
+        <label id="name">Name</label>
+        <input type="text" id="names">
+        <br><br>
+        <label id="dob">Date Of Birth</label>
+        <input type="date" id="dobs">
+        <br>
+        <br>
+        <label id="'password">Password</label>
+        <input type="password" id="passwords">
+        <br><br>
+        <label id="religion" >Religion</label>
+        <select name="religion" id="religions">
+            <option value="Hindu">Hindu</option>
+            <option value="muslim">Muslim</option> 
+            <option value="Christian">Christian</option>
+        </select>
+        <br><br>
+        <label id="gender">Gender: </label>
+        <input type="checkbox" >
+        <label id="male">Male</label>
+        <input type="checkbox">
+        <label id="female">Female</label>
+        <br><br>
+        <input type="submit" value="Submit">
+        <br>
+        
+         
+    </form>
+    </div>
+    <script>
+        function myFunction()
+        {
+            
+            alert("Submit hogaya patte!");
+        }
+    </script>
+
+</body>
+</html>
